@@ -1,0 +1,111 @@
+ /* =========================
+   Large Screens (Default)
+========================= */
+
+
+/* =========================
+   Tablets (≤ 992px)
+========================= */
+@media (max-width: 992px) {
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+}
+
+/* =========================
+   Mobile Devices (≤ 768px)
+========================= */
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+        padding: 40px 15px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* =========================
+   Small Mobile Devices (≤ 576px)
+========================= */
+@media (max-width: 576px) {
+
+    h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .card img {
+        height: 160px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+/* =========================
+   Extra Enhancements
+========================= */
+
+/* Smooth spacing for mobile */
+body {
+    overflow-x: hidden;
+}
+
+/* Improve touch experience */
+button, 
+.btn {
+    touch-action: manipulation;
+}
+
+/* Better form inputs on mobile */
+input, textarea, select {
+    font-size: 16px;
+}
