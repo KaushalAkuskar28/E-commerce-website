@@ -35,7 +35,7 @@ K-Mart is a responsive front-end e-commerce website built using **HTML, CSS, Jav
 ![Products page](screenshot/products.png)
 ![Cart page](screenshot/cart.png)
 ![Checkout page](screenshot/checkout.png)
-![Contact page](screenshot/contact.png)
+![Contact page](screenshot/con1.png)
 ![Login page](screenshot/login.png)
 
 ## 🗺️ Roadmap
